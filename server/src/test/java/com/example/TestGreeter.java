@@ -11,7 +11,7 @@ import static org.junit.matchers.JUnitMatchers.containsString;
 public class TestGreeter {
 
   private Greeter greeter;
-     int totalNumberOfApplicants = 0;
+     int totalNumberOfApplicants = 123;
 
   @Before
   public void setup() {

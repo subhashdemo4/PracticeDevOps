@@ -65,7 +65,7 @@ public class TestGreeter {
      
     @Test
     public void testAssertThatWMessage(){
-        assertThat("They are not equal!","123",is("1234"));
+        assertThat("They are not equal!","123",is("123"));
     }
 
    

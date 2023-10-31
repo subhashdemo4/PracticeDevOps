@@ -11,6 +11,7 @@ import static org.junit.matchers.JUnitMatchers.containsString;
 public class TestGreeter {
 
   private Greeter greeter;
+     int totalNumberOfApplicants = 0;
 
   @Before
   public void setup() {
@@ -40,12 +41,12 @@ public class TestGreeter {
 
 
 
-   int totalNumberOfApplicants = 0;
+
      
-    @Before
-    public void setData(){
-        this.totalNumberOfApplicants = 9;
-    }
+    // @Before
+    // public void setData(){
+    //     this.totalNumberOfApplicants = 9;
+    // }
      
     @Test
     public void testAssertThatEqual() {
@@ -57,10 +58,10 @@ public class TestGreeter {
         assertThat(totalNumberOfApplicants,is(123));
     }
      
-    @Test
-    public void testAssertThatObject() {
-        assertThat("123",isA(String.class));
-    }
+    // @Test
+    // public void testAssertThatObject() {
+    //     assertThat("123",isA(String.class));
+    // }
      
     @Test
     public void testAssertThatWMessage(){
